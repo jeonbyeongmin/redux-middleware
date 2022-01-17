@@ -3,8 +3,8 @@ import { all, call, fork } from "redux-saga/effects";
 import createSagaMiddleware from "redux-saga";
 import logger from "redux-logger";
 
-import { postsSaga } from "./saga/postsSaga";
-import { postsSlice } from "./slice/postsSlice";
+import { postsSaga } from "./saga/posts.saga";
+import { postsSlice } from "./slice/posts.slice";
 
 const sagaMiddleware = createSagaMiddleware();
 

@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { PostsState } from "../models/postsModel";
+import { PostsState } from "../models/posts.model";
 
 const initialState = {
   loading: false,

@@ -1,7 +1,7 @@
 import { PayloadAction } from "@reduxjs/toolkit";
 import { call, put, takeEvery } from "redux-saga/effects";
-import { PostsState } from "../models/postsModel";
-import { getPosts, getPostsError, getPostsSuccess } from "../slice/postsSlice";
+import { PostsState } from "../models/posts.model";
+import { getPosts, getPostsError, getPostsSuccess } from "../slice/posts.slice";
 import * as postsAPI from "../../api/posts";
 import { AxiosResponse } from "axios";
 
